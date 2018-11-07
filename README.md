@@ -1,5 +1,3 @@
-BLA
-
 # IsClear
 
 An experimental  **didactic project** for scraping Instagram users and unfollowing who doesn't follow back.
@@ -43,7 +41,7 @@ Again, we insist that these are just toy examples and there's no particular inte
 
 **There are already a lot of commercial and free tools that help you check who has unfollowed you on Instagram**. If this is the only part you're interested in, or if you don't get any enjoyment from coding, we suggest you searching for one of these mentioned instruments instead.
 
-**This code is at an early stage and there may be errors and bugs**. You are aware that the goal should checking the lines and improving them. Contributions and pull requests are more than welcomed.
+**This code is at an early stage and there may be errors and bugs**. You are aware that the goal shall be checking the lines and improving them. Contributions and pull requests are more than welcomed.
 
 Enjoy,
 
