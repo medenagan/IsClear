@@ -4,8 +4,7 @@ An experimental  **didactic project** for scraping Instagram users and unfollowi
 
 ## An extension to scrape and unfollow users who doesn't follow you back on Instagram
 
-This is a just an educational project and it's not intended to be used in any real application.
-
+This is just an educational project and it's not intended to be used in any real application.
 
 The scope of this extension is to explore the **potentiality of the Chromium extension API**.
 
