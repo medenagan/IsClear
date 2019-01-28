@@ -1,0 +1,198 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.filter {
+  display: none;
+}
+
+.row:hover {
+  background-color: yellow;
+}
+
+.followers {
+  color: green;
+}
+
+.following {
+  color: red;
+}
+
+.icon {
+  max-width: 50px;
+}
+
+
+.icon:hover {
+  max-width: 100%;
+}
+
+div.widget.w-review:not(.phaosFiltered):nth-child(odd), div.widget.w-review:nth-child(odd) p.header {
+  background-color: antiquewhite !important;
+}
+
+div.reviewDetails > p.reviewInfo {
+  font-size: 140%;
+  color: #3279b7;
+  font-weight: bold;
+  border: yellow 1px solid;
+  border-radius: 4px;
+  background-blend-mode: color-burn;
+  background-color: rgba(0, 0, 0, 0.145);
+  padding: 4px;
+}
+
+div.widget.w-review:nth-child(odd) div.reviewDetails > p.reviewInfo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: purple;
+}
+
+
+
+.phaosButton {
+  background: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.phaosButton:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.55); // 50% black
+}
+
+.phaosTagProduct {
+  background-color: red;
+}
+.phaosTagShipping {
+  background-color: orange;
+}
+.phaosTagTax {
+  background-color: purple;
+}
+.phaosTagService {
+  background-color: blue;
+}
+.phaosTagOther {
+  background-color: black;
+}
+.phaosTagNone {
+  background-color: white;
+}
+.phaosTickets {
+  background-color: black;
+  color: yellow;
+}
+.phaosStatusApprove {
+  background-color: green;
+}
+.phaosStatusUnapprove {
+  background-color: red;
+}
+.phaosStatusUncensor {
+  background-color: gray;
+}
+.phaosCheckUnique {
+  background-color: burlywood;
+}
+
+
+.w-prReviews {
+  font: 15px/150% Arial;
+}
+
+.question {
+  font-size: 130%;
+}
+
+textarea.qa_comment {
+    font-size: 110%;
+}
+
+#reManage select {
+  color: blueviolet !important;
+}
+
+div.answer>p,  {
+  font-size: 110%;
+}
+
+#phaosToolbar, #phaosToolbarSpace {
+  width: 100%;
+}
+
+#phaosToolbar {
+  z-index: 9999;
+}
+
+#phaosToolbarSpace, #phaosAlwaysOn, #phaosAlert {
+  min-height: 30px;
+  line-height: 30px;
+}
+
+#phaosAlert {
+  min-width: 200px;
+  background-color: blue;
+  color: white;
+  vertical-align: bottom;
+  text-align: center;
+  cursor: pointer;
+}
+
+#phaosAlert.invert {
+  background-color: green;
+}
+
+#phaosToolbar {
+  left: 0;
+  top: 0;
+  position: fixed;
+  background-color: #FFFF6B; /* yellow */
+}
+
+#phaosToolbar.phaosRbar {
+  background-color: #d27fe6; /* purple */
+}
+
+div.skiptranslate ~ #phaosToolbar {
+  top: 40px; /* with Google translator */
+}
+
+#phaosLog {
+  max-width: 600px;
+  max-height: 80px;
+  background-color: red;
+  color: white;
+  overflow-y: scroll;
+}
+
+#phaosHideable {
+  display: none;
+  padding-bottom: 10px;
+}
+
+#phaosHideable > div + div {
+  margin-top: 20px;
+}
+
+.flexColumn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexColumn > * + * {
+    margin-top: 6px;
+}
+
+.phaosQuestionIndex {
+  margin-right: 8px;
+}
